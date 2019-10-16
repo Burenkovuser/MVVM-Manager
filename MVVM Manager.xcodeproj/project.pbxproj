@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		FB88B2F6235734A900A95942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88B2F5235734A900A95942 /* AppDelegate.swift */; };
 		FB88B2F8235734A900A95942 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88B2F7235734A900A95942 /* SceneDelegate.swift */; };
-		FB88B2FA235734A900A95942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88B2F9235734A900A95942 /* ViewController.swift */; };
 		FB88B2FD235734A900A95942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB88B2FB235734A900A95942 /* Main.storyboard */; };
 		FB88B2FF235734AD00A95942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB88B2FE235734AD00A95942 /* Assets.xcassets */; };
 		FB88B302235734AD00A95942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB88B300235734AD00A95942 /* LaunchScreen.storyboard */; };
+		FB88B30A2357357C00A95942 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88B3092357357C00A95942 /* ViewModel.swift */; };
+		FB88B30C2357367600A95942 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88B30B2357367600A95942 /* TableViewController.swift */; };
+		FB88B30E2357377F00A95942 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88B30D2357377F00A95942 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB88B2F2235734A800A95942 /* MVVM Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB88B2F5235734A900A95942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB88B2F7235734A900A95942 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB88B2F9235734A900A95942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB88B2FC235734A900A95942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB88B2FE235734AD00A95942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB88B301235734AD00A95942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB88B303235734AD00A95942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB88B3092357357C00A95942 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FB88B30B2357367600A95942 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FB88B30D2357377F00A95942 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				FB88B2F5235734A900A95942 /* AppDelegate.swift */,
 				FB88B2F7235734A900A95942 /* SceneDelegate.swift */,
-				FB88B2F9235734A900A95942 /* ViewController.swift */,
+				FB88B30B2357367600A95942 /* TableViewController.swift */,
+				FB88B30D2357377F00A95942 /* NetworkManager.swift */,
 				FB88B2FB235734A900A95942 /* Main.storyboard */,
+				FB88B3092357357C00A95942 /* ViewModel.swift */,
 				FB88B2FE235734AD00A95942 /* Assets.xcassets */,
 				FB88B300235734AD00A95942 /* LaunchScreen.storyboard */,
 				FB88B303235734AD00A95942 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB88B2FA235734A900A95942 /* ViewController.swift in Sources */,
 				FB88B2F6235734A900A95942 /* AppDelegate.swift in Sources */,
+				FB88B30A2357357C00A95942 /* ViewModel.swift in Sources */,
+				FB88B30E2357377F00A95942 /* NetworkManager.swift in Sources */,
 				FB88B2F8235734A900A95942 /* SceneDelegate.swift in Sources */,
+				FB88B30C2357367600A95942 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
